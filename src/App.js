@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import {
+  useGetDetailedReportQuery,
+  useGetHeadersDataQuery,
+} from "./redux/querySlice";
+import DetailedReport from "./components/DetailedReport"
 function App() {
+  // const { data, error, isLoading } = useGetHeadersDataQuery();
+  const { data, error, isLoading } = useGetDetailedReportQuery();
+  console.log(data);
+  console.log(isLoading)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <> {isLoading ? <>hello</>: <DetailedReport data={data.data}/>}</>
+  
   );
 }
 
