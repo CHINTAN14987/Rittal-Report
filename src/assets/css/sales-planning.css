@@ -1,0 +1,20 @@
+input.form-control.sales-of-planning-input, select.form-control.sales-of-planning-input {
+    padding: 0 0 0 5px;
+    height: auto;
+}
+
+input.form-control.sales-of-planning-input.first-input {
+    width: 90%;
+    float: left;
+}
+
+table.show_report.sop_prospect_accounts:not(.fht-table-init) thead tr th:nth-child(1):not(.noBorder),
+table.show_report.sop_prospect_accounts:not(.fht-table-init) tbody tr td:nth-child(1):not(.noBorder),
+table.show_report.sop_prospect_accounts:not(.fht-table-init) tfoot tr td:nth-child(1):not(.noBorder) {
+    width: 9% !important;
+    padding-left: 10px;
+}
+
+a.noBg span {
+    width: 80% !important;
+}

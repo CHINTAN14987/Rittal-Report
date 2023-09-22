@@ -1,0 +1,154 @@
+.cust_table_wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.closeMe, .tableHeader {
+    text-align: center;
+    padding: 5px;
+}
+
+.table-custom {
+    width: auto!important;
+    table-layout: fixed;
+    white-space: nowrap!important;
+}
+
+.c-table {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ecedf2;
+    border-radius: 4px;
+    background-color: #fff;
+    border-collapse: collapse!important;
+    box-shadow: 0 10px 60px 0 rgba(29,29,31,.09);
+}
+
+.table-custom thead {
+    background-color: #e7f4fa!important;
+}
+
+.table-custom tbody tr, .table-custom tfoot tr, .table-custom thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.table-custom td, .table-custom th {
+    padding: 5px 10px!important;
+    width: 6%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 12px!important;
+    line-height: 20px;
+}
+
+.cust_table_wrapper table td, .cust_table_wrapper table th {
+    border: 1px solid #ecedf2;
+}
+
+.cust_table_wrapper table th {
+    cursor: pointer;
+    width: 150px;
+    text-align: center!important;
+}
+
+.cust_table_wrapper table td, .cust_table_wrapper table th {
+    text-align: left!important;
+    color: #768093;
+    font-weight: 400;
+    white-space: normal;
+    word-break: keep-all;
+}
+
+.table-custom tfoot td, .table-custom thead th {
+    font-weight: 700!important;
+}
+
+.table-custom tbody, .table-custom tfoot, .table-custom thead {
+    display: table;
+    width: auto;
+}
+
+.table-custom tbody {
+    overflow: auto;
+    overflow-x: hidden;
+    display: block;
+    width: 100%;
+    background: #fff;
+}
+
+.cust_table_wrapper table tbody tr:nth-child(odd) {
+    background: #f9fafb;
+}
+
+.table-custom tbody tr, .table-custom tfoot tr, .table-custom thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.c-table__row {
+    border-top: 0 solid #ecedf2;
+    border-bottom: 0 solid #ecedf2;
+}
+.cust_table_wrapper table tbody tr:nth-child(2n) {
+    background: #fff;
+}
+
+.table-custom tbody tr, .table-custom tfoot tr, .table-custom thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.c-table__row {
+    border-top: 0 solid #ecedf2;
+    border-bottom: 0 solid #ecedf2;
+}
+
+.c-table__cell {
+    cursor: pointer!important;
+}
+
+.c-table__cell {
+    padding: 1.25rem 0 1.25rem 30px;
+    color: #768093;
+    font-weight: 500;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.c-table__cell {
+    text-align: center;
+}
+
+.c-table__cell:first-child {
+    text-align: inherit;
+}
+
+
+.table-custom td, .table-custom th {
+    padding: 5px 10px!important;
+    width: 6%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 12px!important;
+    line-height: 20px;
+}
+
+.table-custom td, table.dataTable tbody td {
+    font-size: 14px!important;
+
+}
+.cust_table_wrapper table td, .cust_table_wrapper table th {
+    border: 1px solid #ecedf2;
+}
+
+.cust_table_wrapper table td, .cust_table_wrapper table th {
+    text-align: left!important;
+    color: #768093;
+    font-weight: 400;
+    white-space: normal;
+    word-break: keep-all;
+}

@@ -1,32 +1,47 @@
-import { Table } from 'antd';
-import React from 'react'
+import { Table } from "antd";
+import React, { useState } from "react";
 
-const Report = ({data}) => {
-console.log(data)
-    const columns = 
-      Object.keys(data?.[0]).map((item)=>{return {"title":item, "dataIndex":item, "key":item}})
-      
-console.log(columns, "hello")
+const Report = ({ data }) => {
+  const [selectedRowKeys, setSelectedRowKeys] = useState([]);
+  const [expandedRowKeys, setExpandedRowKeys] = useState([]);
+  const onSelectChange = (newSelectedRowKeys) => {
+    console.log('selectedRowKeys changed: ', newSelectedRowKeys);
+    setSelectedRowKeys(newSelectedRowKeys);
+  };
+
+  const rowSelection = {
+    selectedRowKeys,
+    onChange: onSelectChange,
+  
+  };
+  const columns = [...Object.keys(data?.[0]).map((item) => {
+    return { title: item, dataIndex: item, key: item };
+  })];
+
   return (
     <div>
-         <Table
-    columns={columns}
-    expandable={{
-      expandedRowRender: (record) => (
-        <p
-          style={{
-            margin: 0,
-          }}
-        >
-          {record.description}
-        </p>
-      ),
-      rowExpandable: (record) => record.name !== 'Not Expandable',
-    }}
-    dataSource={data}
-  />
+      <Table
+        columns={columns}
+        rowSelection={rowSelection}
+        expandable={{
+          expandedRowRender: (record) => (
+            <>
+              {console.log(record)}
+              {record?.sub && <Report data={[record.sub]  } />}
+            </>
+          ),
+          rowExpandable: (record) =>
+           {
+            if(record.sub && Object.keys(record.sub).length){
+              setExpandedRowKeys(record.id)
+            }
+           }
+       
+        }}
+        dataSource={data}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Report
+export default Report;

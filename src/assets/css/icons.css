@@ -1,0 +1,221 @@
+.zaflex-product_new {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/product-icon-white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-product_new,
+.side_menu li.active a span.zaflex-product_new,
+.side_menu>li a.active span.zaflex-product_new {
+  background-image: url(../images/product-icon-black.png) !important;
+  background-size: 100% auto;
+}
+
+.zaflex-target {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/target-icon-white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-target,
+.side_menu li.active a span.zaflex-target,
+.side_menu>li a.active span.zaflex-target {
+  background-image: url(../images/target-icon-black.png) !important;
+  background-size: 100% auto;
+}
+
+.zaflex-dist {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/heirachy-icon-white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-dist,
+.side_menu li.active a span.zaflex-dist,
+.side_menu>li a.active span.zaflex-dist {
+  background-image: url(../images/heirachy-icon-black.png) !important;
+  background-size: 100% auto;
+}
+
+
+
+
+.zaflex-margin {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/margin_white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-margin,
+.side_menu li.active a span.zaflex-margin,
+.side_menu>li a.active span.zaflex-margin {
+  background-image: url(../images/margin_black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-quotes {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/cart-icon-white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-quotes,
+.side_menu li.active a span.zaflex-quotes,
+.side_menu>li a.active span.zaflex-quotes {
+  background-image: url(../images/cart-icon-black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-orders {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/order-tag-white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-orders,
+.side_menu li.active a span.zaflex-orders,
+.side_menu>li a.active span.zaflex-orders {
+  background-image: url(../images/order-tag-black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-brands {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/whitel_icons.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-brands,
+.side_menu li.active a span.zaflex-brands,
+.side_menu>li a.active span.zaflex-brands {
+  background-image: url(../images/bl_icons.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-opne-quote-pipeline {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/fillter_white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-opne-quote-pipeline,
+.side_menu li.active a span.zaflex-opne-quote-pipeline,
+.side_menu>li a.active span.zaflex-opne-quote-pipeline {
+  background-image: url(../images/fillter_black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-posting-issue {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/percentage_white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-posting-issue,
+.side_menu li.active a span.zaflex-posting-issue,
+.side_menu>li a.active span.zaflex-posting-issue {
+  background-image: url(../images/percentage_black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-territory{
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/tree_box_w.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-territory,
+.side_menu li.active a span.zaflex-territory,
+.side_menu>li a.active span.zaflex-territory {
+  background-image: url(../images/tree_box_b.png) !important;
+  background-size: 100% auto;
+}
+
+.zaflex-tree_map{
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/tree_map_w.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-tree_map,
+.side_menu li.active a span.zaflex-tree_map,
+.side_menu>li a.active span.zaflex-tree_map {
+  background-image: url(../images/tree_map_b.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-trend {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/trend_white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-trend,
+.side_menu li.active a span.zaflex-trend,
+.side_menu>li a.active span.zaflex-trend {
+  background-image: url(../images/trend_black.png) !important;
+  background-size: 100% auto;
+}
+
+.zaflex-summary {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/sigma_white.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-summary,
+.side_menu li.active a span.zaflex-summary,
+.side_menu>li a.active span.zaflex-summary {
+  background-image: url(../images/sigma_black.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-avg {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/average_w.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-avg,
+.side_menu li.active a span.zaflex-avg,
+.side_menu>li a.active span.zaflex-avg {
+  background-image: url(../images/average_b.png) !important;
+  background-size: 100% auto;
+}
+
+
+.zaflex-agreement {
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/cont_w_130.png) !important;
+  background-size: 100% auto;
+}
+
+.side_menu li:hover a span.zaflex-agreement,
+.side_menu li.active a span.zaflex-agreement,
+.side_menu>li a.active span.zaflex-agreement {
+  background-image: url(../images/cont_130.png) !important;
+  background-size: 100% auto;
+}

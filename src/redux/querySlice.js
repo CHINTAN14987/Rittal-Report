@@ -32,6 +32,36 @@ const dateFormatter = (date) => {
 console.log(process.env.REACT_APP_API_PATH);
 // https://rittal-interlynx.com/srv/api/pos/categary
 const config = validateCpath();
+const formattedData = (newItem) => {
+  const urlPattern = /(https?:\/\/[^\s]+)/g;
+  const transformed = {};
+  for (let key in newItem) {
+    if (newItem.hasOwnProperty(key)) {
+      if (typeof newItem[key] === "string") {
+        let newKey = key
+          ?.replace(/_/g, " ")
+          ?.split(" ")
+          ?.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ");
+        transformed[newKey] = newItem[key].replace(urlPattern, "").trim();
+      }
+      if (
+        typeof newItem[key] === "object" &&
+        Object.keys(newItem[key])?.length
+      ) {
+        transformed[key] = formattedData(newItem[key]);
+      }
+    }
+  }
+  return transformed;
+};
+const checkDataHasUrl = (data) => {
+  const modifiedData = data?.map((item) => {
+    const newItem = { ...item };
+    return formattedData(newItem);
+  });
+  return modifiedData;
+};
 // const config = validateCpath();
 
 // const headers = {
@@ -100,6 +130,10 @@ export const api = createApi({
           Authorization: "Bearer a689b41cf3357b23a757ea2fe5cf2689",
         },
       }),
+      transformResponse: (response) => {
+        const transformedData = checkDataHasUrl(response.data);
+        return transformedData;
+      },
     }),
 
     // sendEmail: builder.query({

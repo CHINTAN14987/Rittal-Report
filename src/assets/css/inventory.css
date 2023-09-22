@@ -1,0 +1,780 @@
+.side_menu li:hover a span.zaflex-inquiries,
+.side_menu li.active a span.zaflex-inquiries,
+.side_menu > li a.active span.zaflex-inquiries {
+  background-image: url(../images/InquiriesSentBlack.png) !important;
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+}
+.side_menu a span.zaflex-inquiries {
+  background-image: url(../images/InquiriesSent.png) !important;
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+}
+.side_menu li:hover a span.zaflex-mysales,
+.side_menu li.active a span.zaflex-mysales,
+.side_menu > li a.active span.zaflex-mysales {
+  background-image: url(../images/MySalesBlack.png) !important;
+}
+.side_menu li a span.zaflex-mysales {
+  background-image: url(../images/MySales.png) !important;
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+}
+.side_menu li:hover a span.zaflex-inquiries-received,
+.side_menu li.active a span.zaflex-inquiries-received,
+.side_menu > li a.active span.zaflex-inquiries-received {
+  background-image: url(../images/InquiriesReceivedBlack.png) !important;
+}
+.side_menu li a span.zaflex-inquiries-received {
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+  background-image: url(../images/InquiriesReceived.png) !important;
+}
+.side_menu li:hover a span.zaflex-search-sku,
+.side_menu li.active a span.zaflex-search-sku,
+.side_menu > li a.active span.zaflex-search-sku {
+  background-image: url(../images/searchBlack.png) !important;
+}
+.side_menu li a span.zaflex-search-sku {
+  background-image: url(../images/search.png) !important;
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+}
+
+.side_menu li:hover a span.zaflex-myPurchases,
+.side_menu li.active a span.zaflex-myPurchases,
+.side_menu > li a.active span.zaflex-myPurchases {
+  background-image: url(../images/MyPurchasesBlack.png) !important;
+}
+.side_menu li a span.zaflex-myPurchases {
+  background-image: url(../images/MyPurchases.png) !important;
+  background-size: 100% auto;
+  width: 35px;
+  height: 38px;
+}
+
+/* inquire tab */
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(3):not(.noBorder) {
+  width: 5%
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  thead
+  tr
+  th:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  thead
+  tr
+  th:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tbody
+  tr
+  td:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tfoot
+  tr
+  td:nth-child(4):not(.noBorder) {
+  width: 4% 
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  thead
+  tr
+  th:nth-child(6):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tbody
+  tr
+  td:nth-child(6):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tfoot
+  tr
+  td:nth-child(6):not(.noBorder) {
+  width: 4% ;
+  text-align: center !important;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder) {
+  width: 9%;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  thead
+  tr
+  th:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tbody
+  tr
+  td:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent.Management
+  tfoot
+  tr
+  td:nth-child(3):not(.noBorder) {
+  width: 8%;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(11):not(.noBorder) {
+  width: 3% ;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  thead
+  tr
+  th:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tbody
+  tr
+  td:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesSent
+  tfoot
+  tr
+  td:nth-child(10):not(.noBorder) {
+  width: 5% ;
+}
+
+/* inquire tab end  */
+
+/* my purchase */
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(4):not(.noBorder) {
+  width: 5% ;
+}
+
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(11):not(.noBorder) {
+  width: 5% ;
+}
+
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder) {
+  width: 3%;
+}
+
+table.show_report.detailed.inventory_exchange_myPurchases
+  thead
+  tr
+  th:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tbody
+  tr
+  td:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_myPurchases
+  tfoot
+  tr
+  td:nth-child(10):not(.noBorder) {
+  width: 5%;
+}
+/* my purchase end */
+
+/* inquire recevied */
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(11):not(.noBorder) {
+  width: 5% ;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder) {
+  width: 3%;
+}
+
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  thead
+  tr
+  th:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tbody
+  tr
+  td:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_inquiriesReceived
+  tfoot
+  tr
+  td:nth-child(10):not(.noBorder) {
+  width: 5%;
+}
+/* inquire recevied end */
+/* my sales */
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(4):not(.noBorder) {
+  width: 5% ;
+}
+
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(11):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(11):not(.noBorder) {
+  width: 5%;
+}
+
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder) {
+  width: 3%;
+}
+
+table.show_report.detailed.inventory_exchange_mySales
+  thead
+  tr
+  th:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tbody
+  tr
+  td:nth-child(10):not(.noBorder),
+table.show_report.detailed.inventory_exchange_mySales
+  tfoot
+  tr
+  td:nth-child(10):not(.noBorder) {
+  width: 5% ;
+}
+/* my sales end */
+/* exchange search end */
+
+span.search.inventory .search_input {
+  height: 22px;
+  line-height: 22px;
+  /* border: none; */
+  background: transparent;
+  text-align: left;
+  width: 220px;
+  padding: 1px 5px;
+  margin-right: 15px;
+  text-transform: capitalize;
+  border: 1px solid #cecece;
+  color: #10120f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  margin-right: 7px !important;
+}
+
+/* inventory styling */
+.ui.pagination.menu {
+  width: 24%;
+  border: none;
+  float: left;
+  background: none;
+}
+
+.pagination-area .ui.menu .item {
+  /* background: #c3e6f5; */
+  padding: 1px 5px;
+  font-size: 15px;
+}
+
+.pagination-area .ui.pagination.menu .item {
+  min-width: auto;
+}
+
+.pagination-area .ui.pagination.menu .item {
+  min-width: auto;
+}
+
+.ui.pagination.menu .active.item {
+  border-top: none;
+  padding-top: 0 !important;
+  background-color: #2185d0;
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: none;
+  background: #1281c1;
+  color: #fff;
+  cursor: default;
+}
+.ui.pagination.menu .active.item {
+  padding-top: 0.92857143em;
+}
+
+.ui.pagination.menu .active.item {
+  border-top: none;
+  padding-top: 0 !important;
+  background-color: #2185d0 !important;
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: none;
+  background: #1281c1;
+  color: #fff !important;
+  cursor: default;
+}
+
+table.ui.definition.table {
+  font-family: Open Sans, sans-serif !important;
+  font-weight: 700;
+  font-size: 12px;
+  color: #006faf !important;
+}
+
+table.ui.definition.table td {
+  color: #006faf !important;
+  cursor: pointer;
+}
+/* inventory styling end */
+
+.toggle i.fas.fa-envelope {
+  font-size: 16px;
+}
+
+a.hasNotification, li.hasNotification a  {
+  position: relative;
+}
+
+
+
+a.hasNotification span.intro-banner-vdo-play-btn.pinkBg, li.hasNotification a span.intro-banner-vdo-play-btn.pinkBg {
+  width: 10px;
+  height: 10px;
+  margin-top: 0px;
+  margin-left: 16px;
+}
+
+.action-dropdown {
+  width: 100%;
+  border-radius: 2px;
+  /* background: #006faf; */
+  /* color: #fff; */
+  text-transform: capitalize;
+}
+.selected_date .nine.wide.column ,.selected_date .ui.grid, .selected_date .ui.search{
+  position: absolute;
+  z-index: 999;
+
+  right: 40px
+
+  
+
+}
+
+
+.selected_date .ui.fluid.search .results {
+  width: 142%;
+  max-height: 300px;
+  overflow: scroll;
+  margin-top: 0 !important;
+}
+
+.selected_date .ui.icon input {
+  background: transparent;
+  border-radius: 0 !important;
+  padding: 3px;
+  height: 22px;
+  line-height: 22px;
+  background: transparent;
+  text-align: left;
+  width: 220px;
+  padding: 1px 5px;
+  margin-right: 15px;
+  text-transform: uppercase;
+  border: 1px solid #cecece;
+  color: #10120f;
+  font-family: Open Sans,sans-serif;
+  font-size: 12px;
+  margin-right: 7px!important;
+}
+
+.selected_date .ui.fluid.search .results .result .ui{
+  text-transform: capitalize;
+  background: transparent;
+  font-size: 12px;
+}
+
+strong.textHighlight {
+  font-weight: bolder;
+  color: #000;
+}
+
+td.noBorder.her_detail i.fa-cart-plus {
+  font-size: 18px;
+}
+
+
+
+/* table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(2):not(.noBorder):not(.extendLines),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder):not(.extendLines),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder):not(.extendLines) {
+  width: 6%;
+} */
+
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(2):not(.noBorder):not(.extendLines),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(2):not(.noBorder):not(.extendLines),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(2):not(.noBorder):not(.extendLines) {
+  width: 3% ;
+}
+
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(3):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(3):not(.noBorder) {
+  width: 5% ;
+}
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(4):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(4):not(.noBorder) {
+  width: 8% ;
+}
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(5):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(5):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(5):not(.noBorder) {
+  width: 4% ;
+}
+
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(6):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(6):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(6):not(.noBorder) {
+  width: 8% ;
+}
+
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(7):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(7):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(7):not(.noBorder) {
+  width: 2.5% ;
+  text-align: right !important;
+}
+
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  thead
+  tr
+  th:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(9):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(9):not(.noBorder) {
+  width: 2.5%;
+  text-align: right !important;
+  
+}
+
+/* table.show_report.detailed.inventory_exchange_search
+  tbody
+  tr
+  td:nth-child(8):not(.noBorder),
+table.show_report.detailed.inventory_exchange_search
+  tfoot
+  tr
+  td:nth-child(8):not(.noBorder) {
+  text-align: center !important;
+} */
+a.cartItem.hyperlink {
+  font-size: 20px;
+  text-align: center !important;
+  color: #000;
+  display: block;
+}
+a.cartItem.hyperlink.active,
+a.cartItem.hyperlink:hover {
+  color: green !important;
+}

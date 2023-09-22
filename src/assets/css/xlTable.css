@@ -1,0 +1,85 @@
+.xlTable th:first-child,
+.xlTable td:first-child {
+  width: 20% !important;
+  padding-right: 48px !important;
+  background: #3f5367;
+  color: #fff !important; /* padding-left: 17px !important; */
+}
+
+.xlTable th,
+.xlTable td {
+  width: 10% !important;
+  padding-right: 48px !important;
+}
+
+.xlTable th:first-child a,
+.xlTable td:first-child a {
+  color: #fff !important;
+  padding-left: 16px;
+}
+
+.xlTable > tbody > tr > td {
+  padding: 4px 10px !important;
+}
+
+.xlTable {
+  margin-bottom: 0;
+}
+
+.xlTable > thead > tr > th {
+  border: none;
+}
+
+.tableFooter td.sorting_1:first-child {
+  width: 76% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(2) {
+  width: 14.2% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(3) {
+  width: 14.5% !important;
+  text-align: left !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(4) {
+  width: 14.2% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(5) {
+  width: 14.4% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(6) {
+  width: 13.2% !important;
+}
+
+.tableFooter td.sorting_1:first-child {
+  width: 21% !important;
+}
+
+#drilldownTab .tableFooter td.sorting_1:first-child {
+  width: 50% !important;
+}
+.sic_margin .tableFooter td.sorting_1:first-child {
+  width: 50% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(2) {
+  width: 14.2% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(3) {
+  width: 14.5% !important;
+  text-align: left !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(4) {
+  width: 14.2% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(5) {
+  width: 14.4% !important;
+}
+.xlTable .tableFooter td.sorting_1:nth-child(6) {
+  width: 13.2% !important;
+}
+
+.table-custom.approved_product_rebates td:last-child,
+table.dataTable.approved_product_rebates tbody td:last-child,
+.tableFooter.approved_product_rebates td:last-child,
+.headerrow.approved_product_rebates th:last-child {
+  text-align: right;
+}

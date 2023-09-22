@@ -1,0 +1,43 @@
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(2):not(.noBorder):not(.extendLines){
+    width: 10%;
+
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(4):not(.noBorder):not(.extendLines){
+    width: 10%;
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(10):not(.noBorder):not(.extendLines),
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(11):not(.noBorder):not(.extendLines),
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(9):not(.noBorder):not(.extendLines)
+{
+    width: 5%;
+}
+
+
+table.show_report.detailed.rebate_detailed thead tr th:nth-child(1):not(.noBorder):not(.extendLines),
+table.show_report.detailed.rebate_detailed tbody tr td:nth-child(1):not(.noBorder):not(.extendLines),
+table.show_report.detailed.rebate_detailed tfoot tr td:nth-child(1):not(.noBorder):not(.extendLines) {
+  width: 2.5%;
+
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(3):not(.noBorder):not(.extendLines){
+    width: 10%;
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(7):not(.noBorder):not(.extendLines){
+    width: 15%;
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(4):not(.noBorder):not(.extendLines){
+    width: 5%;
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(5):not(.noBorder):not(.extendLines){
+    width: 6%;
+}
+
+table.show_report.rebate_custom_contracts_gates_view thead tr th:nth-child(8):not(.noBorder):not(.extendLines){
+    width: 5%;
+}

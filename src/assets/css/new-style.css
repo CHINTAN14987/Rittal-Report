@@ -1,0 +1,540 @@
+.sourcePer{float:right;}
+
+.x_panel.tile.fixed_height_320.tableData{height:400px;}
+#reportrange{position:relative;top:12px;right:6px;}
+.x_scrollBar{height:200px;}
+		
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{ padding: 4px !important;}
+.x_panel{ padding: 0px 17px !important;}
+.highcharts-root{height:355px !important;}
+
+ul.report_type_list li a.change{background:#8a8b8d;}
+ul.report_type_list li a.change:hover{ background:#c2e6f4; color:#000;}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(185, 226, 255, 0.75);
+	transition: opacity 500ms;
+	z-index: 9999999;
+	opacity: 1;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.new {
+	margin: 130px auto;
+	padding: 40px 20px;
+	background: #006faf;
+	background: -moz-linear-gradient(#267bb7, #20699c);
+	background: -webkit-linear-gradient(#267bb7, #20699c);
+	background: -o-linear-gradient(#267bb7, #20699c);
+	border-radius: 10px;
+	width: 50%;
+	position: relative;
+	transition: all 5s ease-in-out;
+	border:#5690cc 1px solid;
+}
+.new h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+	color:#FFFFFF;
+}
+.new .end {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	transition: all 200ms;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #31679e;
+	background:#FFFFFF;
+	border-radius:50%;
+	padding:5px 10px;
+}
+
+.new .end:hover {
+	color: #FFFFFF;
+	background:#1a5f8e;
+}
+
+.new .content {
+	max-height: 28rem;
+	margin-top:15px;
+	color:#FFFFFF;
+	text-align: justify;
+}
+
+.col-sm-12 { width: 100%; }
+
+.excelBtn { text-align: right;
+	position: absolute;
+    top: 0;
+    right: 0;}
+table.show_report .toggle a {
+    display: inline-block !important;
+    padding: 0px !important;
+}
+table.show_report .toggle .row {height: unset !important;}
+
+.footer .right p {margin-bottom: 0;}
+.show_report .toggle { width: 100% !important; padding: 0px; }
+.bold { font-weight: 700; }
+.show_report .col-md-4 { width: 32.3%; margin-bottom: 0px; }
+.show_report .col-md-3 { float: left; width: 34%; margin-bottom: 0px; }
+.show_report .col-md-9 { float: left; width: 66%; word-wrap: break-word; margin-bottom: 0px; }
+.hide_mob { display: block; }
+.show_mob { display: none; }
+.col-md-4 .form-group { margin-bottom: 0px; }
+
+.show_report tbody::scrollbar { display: none; }
+.show_report tbody::-webkit-scrollbar { display: none; }
+.show_report tbody::-moz-scrollbar { display: none; }
+.main-ul {margin-top: 0px !important;}
+
+.show_report .tabclick, .open, .childopen {  display: table;  width: 100%;  table-layout: fixed;}
+.show_report tr.second_Tr {  display: none;}
+ 
+table.show_report tbody tr.root_level td, 
+table.show_report tfoot tr td {
+    padding: 2px 6px !important;
+}
+
+table.show_report tbody tr td {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	white-space: normal;
+    word-break: keep-all;
+}
+
+#a1_SIC {
+	padding-left: 0px !important;
+}
+td span {
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+	.main-ul .client_style_logo  {  position: absolute;    right: 0;}
+}
+@media screen and (max-width: 1490px) and (min-width: 992px) {
+	.fixed_height_320 {    height: 520px;}
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.dash-grid .col-sm-6 {height: 420px; }
+	.fixed_height_320 {    height: 470px;}
+}
+@media screen and (max-width: 780px) {
+	.main-ul li { margin-right: 1px !important;}
+}
+@media screen and (max-width: 500px) {
+	.pagination .pagination_showing {    width: 100%; top: 0px;}
+	ul.footer_left_type li {width: 50%;}
+}
+@media screen and (max-width: 767px) {
+	.hide_mob { display: none; }
+	.show_mob { display: block; }
+
+	.report_list_mobile { width: 100%; float: left; }
+	.report_list_mobile .toggle-btn a { line-height: 45px; font-size: 20px; color: #3f5367; } 
+	.client_style_logo { width: 50% !important; }
+
+	#mob_menu .report_type_list:nth-child(1) { margin-top: 10px !important; }
+	#mob_menu .report_type_list li { width: 100%; float: none !important; }
+	#mob_menu .report_type_list { margin-bottom: 15px; }
+	.pos-dashboard .sidebar { display: none; }
+	.pos-dashboard .main_report { padding: 10px; }
+
+	.col-md-2.col-sm-4.col-xs-6.tile_stats_count { max-width: 100%; width: 100% !important; }
+
+	.new { width: 90%; }
+
+	.selected_date, .zf-print {display: none;}
+	.report_type { background: #f0f0f0;}
+
+	.fixed_height_320 {    height: auto;}
+}
+@media  screen and (max-width: 993px) {
+	ul.report_duration_type li {width: 24%;}
+}
+@media  screen and (max-width: 700px) {
+	.box,
+	.popup{ width: 70%; }
+	ul.report_duration_type li {    width: 49.5%; border-bottom: 3px solid #dbf4ff;}
+	ul.side_menu.hierarchy_side_menu.box {    width: 100%;}
+}
+@media  screen and (max-width: 381px) {
+	ul.report_duration_type li {width: 98.5%;}
+}
+
+@media  screen and (max-width: 380px) {
+	.footer { height: 110px; padding: 10px; position: relative; }
+	.footer .footer_left,
+	.footer .right { width: 100%; float: none !important; text-align: center;}
+	.footer .footer_left_type li { float: none !important; margin: 0 auto 10px; }
+}
+
+@media screen and (min-width: 992px) {
+	/* .tile_stats_count:nth-child(1) { max-width: 240px; width:100%; }
+	.tile_stats_count:nth-child(2) { max-width: 180px; width:100%; }
+	.tile_stats_count:nth-child(3) { max-width: 200px; width:100%; } */
+}
+
+
+/*********last-modify*************/
+.form-group div p a{
+	background:none !important;
+}
+
+rect.highcharts-background {
+    stroke: none;
+}
+
+g.highcharts-legend {
+    display: none;
+}
+
+.col-md-2.col-sm-4.col-xs-6.tile_stats_count {
+	width: calc((94vw / 8));
+	text-align: center;
+}
+
+
+.left_section .pos_dashboard .col-md-2.col-sm-4.col-xs-6.tile_stats_count {
+	width: 12.2% !important;
+	text-align: center;
+}
+
+
+/* rebate_contracts_type_active */
+.lead-details.rebate_contracts_type_active table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+	border:none !important;
+}
+
+.lead-details.rebate_contracts_type_active table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.rebate_contracts_type_active {
+	padding: 0 15px 0px 15px !important;
+}
+
+
+/* rebate_contracts_type_pending */
+.lead-details.rebate_contracts_type_pending table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+	border:none !important;
+}
+
+.lead-details.rebate_contracts_type_pending table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.rebate_contracts_type_pending {
+	padding: 0 15px 0px 15px !important;
+}
+
+
+
+/* rebate_contracts_type_renegotiate */
+.lead-details.rebate_contracts_type_renegotiate table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+	border:none !important;
+}
+
+.lead-details.rebate_contracts_type_renegotiate table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.rebate_contracts_type_renegotiate {
+	padding: 0 15px 0px 15px !important;
+}
+
+
+/* rebate_contracts_type_decline */
+.lead-details.rebate_contracts_type_decline table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+	border:none !important;
+}
+
+.lead-details.rebate_contracts_type_decline table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.rebate_contracts_type_decline {
+	padding: 0 15px 0px 15px !important;
+}
+
+/* rebate_contracts_type_expired */
+.lead-details.rebate_contracts_type_expired table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+	border:none !important;
+}
+
+.lead-details.rebate_contracts_type_expired table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.rebate_contracts_type_expired {
+	padding: 0 15px 0px 15px !important;
+}
+
+
+.sub-view-parent {
+	background-color: #c3e6f5 !important;
+	border:none !important
+}
+.sub-view{
+	width: 100%;
+}
+/*For Contacts Tab */
+table.show_report.contact_list_details thead tr th:nth-child(3):not(.noBorder):not(.extendLines), 
+table.show_report.contact_list_details tbody tr td:nth-child(3):not(.noBorder){
+    width: 15% !important;
+}
+
+table.show_report.contact_list_details thead tr th:nth-child(6):not(.noBorder):not(.extendLines), 
+table.show_report.contact_list_details tbody tr td:nth-child(6):not(.noBorder),
+table.show_report.contact_list_details thead tr th:nth-child(5):not(.noBorder):not(.extendLines), 
+table.show_report.contact_list_details tbody tr td:nth-child(5):not(.noBorder){
+    width: 18% !important;
+}
+/*  */
+
+table.show_report.contact_list_details thead tr th:nth-child(7):not(.noBorder):not(.extendLines), 
+table.show_report.contact_list_details tbody tr td:nth-child(7):not(.noBorder),
+table.show_report.contact_list_details thead tr th:nth-child(8):not(.noBorder):not(.extendLines), 
+table.show_report.contact_list_details tbody tr td:nth-child(8):not(.noBorder){
+    width: 5% !important;
+    text-align: left !important;
+}
+
+.contact_list_details .lead-details {
+    max-width: 100% !important;
+}
+
+table.show_report.contact_list_details tbody tr td.email, 
+table.show_report.contact_list_details tbody tr td.website, 
+table.show_report.contact_list_flat tbody tr td.email,
+table.show_report.contact_list_flat tbody tr td.website,
+table.show_report.contact_list tbody tr td.email,
+table.show_report.contact_list tbody tr td.website,
+table.show_report.contact_list_details .lead-details tr table tr:not(.header) td, 
+table.show_report.contact_list_flat .lead-details tr table tr:not(.header) td,
+table.show_report.contact_list .lead-details tr table tr:not(.header) td
+{
+    text-transform: none !important;
+}
+
+table.show_report.contact_get_save_search thead tr th:nth-child(1), 
+table.show_report.contact_get_save_search tbody tr td.title
+{
+    width: 10% !important;
+}
+
+.add-contact-list {
+	float: right;
+    padding: 6px 6px 6px 20px;
+    color: black;
+    background: #cce2ff;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVZJREFUeNpskL9qwlAUxr/cXEWFYCuCDhGppUZwMJDFRxBfQbq4Fx/GsTg5+QLtJpUiRTBDoRmMdMogimIwkKDRpOdm7oEP7r3nd7/zR1qtVrher0ilUjifz9nBYPB6PB7zo9HouVgsuiJHd3DXdWGaJpbLJfb7/dN0Ou2BwnEcXdO0j81mA9u2wS6XCwzDQL/fh6IoAWMsEmA6nQ5zuRw455AkCfx2u3HLspqtVosR+ECMANlisWgWCgV/t9vFYRja6Ha7Y+FCiulnIgITibN4b7fbb9zzvPsoiiT8E3EcJ/J9/06az+fKcDjUyT7OZDLqZDIZ06Scpn8h6LterzPq0+LUl1cqlT4PhwOo30dKJu6dTsesVCpfVBHr9RqMnFCtVtFoNEB7UwiWBRgEQbZWq0GW5WTPnJqFruugsjidTr+z2eydVpZXVfVHuJXLZWy3W/wJMAAQtagtX3DwAwAAAABJRU5ErkJggg==) !important;
+    background-repeat: no-repeat;
+    background-position: 6px center !important;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+table.show_report.contact_my_list thead tr th:nth-child(2), 
+table.show_report.contact_my_list thead tr th:nth-child(3) {
+	padding-left: 5px !important;
+}
+
+table.show_report.contact_my_list thead tr th:nth-child(2), 
+table.show_report.contact_my_list tbody tr td:nth-child(2), 
+table.show_report.contact_my_list tfoot tr td:nth-child(2) {
+	width: 30% !important;
+	text-align: left !important;
+}
+
+table.show_report.contact_my_list thead tr th:nth-child(3), 
+table.show_report.contact_my_list tbody tr td:nth-child(3), 
+table.show_report.contact_my_list tfoot tr td:nth-child(3) {
+	width: 60% !important;
+	text-align: left !important;
+}
+
+table.show_report.contact_my_list thead tr th:nth-child(4), 
+table.show_report.contact_my_list tbody tr td:nth-child(4), 
+table.show_report.contact_my_list tfoot tr td:nth-child(4) {
+	width: 10% !important;
+	/* text-align: center !important; */
+}
+
+.general-popup.modal{
+	/* left: 34% !important; */
+	left: 0 !important;
+    top: 0 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    bottom: 0 !important;
+    right: 0 !important;
+	width: unset !important;
+	background-color: #8080804d !important;
+}
+.general-popup .modal-body{
+	width: 100% !important;
+    float: left !important;
+}
+
+.general-popup .modal-dialog {
+	width: 50% !important;
+	margin-top: 5% !important;
+}
+
+tr.contact_my_list td:last-child,
+tr.contact_my_list td:last-child{
+	text-align: left !important;
+	/* width:5% !important; */
+}
+
+.lead-details.contact_my_list table.sub-view tr {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.lead-details.contact_my_list table.sub-view tr td {
+	padding-left: 5px !important;
+	background-color: #c3e6f5 !important;
+	outline: none !important;
+}
+
+.lead-details.contact_my_list {
+	padding: 0 15px 0px 15px !important;
+}
+
+.sub-view-parent {
+	background-color: #c3e6f5 !important;
+}
+
+.lead-details.contact_my_list tr.bgComp td:nth-child(1),
+.lead-details.contact_my_list tr.bgComp td:nth-child(4) {
+	width: 7% !important;
+}
+
+.lead-details.contact_my_list tr.bgComp td:nth-child(2),
+.lead-details.contact_my_list tr.bgComp td:nth-child(3),
+.lead-details.contact_my_list tr.bgComp td:nth-child(5) {
+	width: 5% !important;
+}
+
+.lead-details.contact_my_list tr.bgComp td:nth-child(8) {
+	width: 2% !important;
+}
+
+table.show_report.detailed tbody tr table.table-custom td.sub-view-parent:nth-child(1) {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+table.show_report.detailed.contact_my_templates thead tr th:nth-child(2),
+table.show_report.detailed.contact_my_templates tbody tr td:nth-child(2) {
+	width: 40% !important;
+	text-align:left !important;
+	padding-left: 10px !important; 
+}
+table.show_report.detailed.contact_my_templates thead tr th:nth-child(3),
+table.show_report.detailed.contact_my_templates tbody tr td:nth-child(3) {
+	width: 40% !important;
+	text-align:left !important;
+	padding-left: 10px !important; 
+}
+
+table.show_report.detailed.contact_my_templates thead tr th:nth-child(4),
+table.show_report.detailed.contact_my_templates tbody tr td:nth-child(4) {
+	width: 5% !important;
+	text-align:left !important;
+	padding-left: 10px !important; 
+}
+
+.lead-details.contact_my_templates {
+	height: 425px !important;
+	max-width: none !important;
+}
+
+.modal-dialog .modal-content {
+	box-shadow1: none !important; 
+}	
+
+table.show_report.contact_list_flat tbody tr td.checkboxWidth input.check {
+    width: 12px !important;
+}
+
+table.show_report.contact_list_flat tbody tr.root_level td, table.show_report.contact_list_flat tfoot tr td {
+    padding: 2px 9px !important;
+}
+
+table.show_report.contact_list_flat thead tr th:nth-child(1) {
+	margin-left: -3px !important;
+	padding: 2px 9px !important;
+}
+
+.contact_my_templates .action_col i,
+.contact_my_list .action_col i,
+.contact_my_list .action_col span,
+.contact_my_templates .action_col span {
+	margin: 0 3px;
+	font-size: 16px;
+}
+
+.zaflex-export_black {
+    width: 20px;
+    height: 23px;
+    background-position: 0px -33px;
+}
+.zaflex2 {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAnCAYAAAA/63kvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjIzRDJFQTVFNDhDMDExRUU5MDZGOEQzNUNFNjlCOERFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjIzRDJFQTVGNDhDMDExRUU5MDZGOEQzNUNFNjlCOERFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjNEMkVBNUM0OEMwMTFFRTkwNkY4RDM1Q0U2OUI4REUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjNEMkVBNUQ0OEMwMTFFRTkwNkY4RDM1Q0U2OUI4REUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz46TBkgAAAEF0lEQVR42pxVXWgdRRg9Mzu7N/c/t00a24itbUEfFBFrrFbRVkTQSC1VrJUWfxAVpD75JgUpKhbxQUTw/0EQfLHoW2tEEcFKafNiQ6qhImq1aW4Tktx7c+/u7HhmM1s2F9saBw57Z+9833fOmW9mBV44dBgQZ2HiOoAcYZAOkfyOAHknf01AdZ6D702h7UHBmD8hxH5E+g/ExkOOa/0YaPqAZ2J4nuH7g0zwIrS6CkI+wYRjElLOQyJEwIUFX6OR1zjTqyEiDaUME5OD4TyhMMSV3yKOhyViVlXaw8oKcGUv8FsfMLIBqHpAuciqTBj4XzPqG+JLCDPB5ysSlWaMIzdqTNQ4bwA9mmhTLYMEy7Ao8udHWGUbsZ2LHmb1EwqRF6E2ezXC+tM401qLjdE81vz9KaYLx5AL16EV7UG7XIIUZGeYwHwPT5xW1NTGreNVdNRdxHWQZgBF737ohTfQlA/RnHsSh+kTYvkLZPwdZ4HiwjyawQ/ww30o6p1o5DbR+gfI812ahsSc2PwMX+2Dd+4w2tU+CI+BwigU2kWcWjOGqZrA7T8JzBXO8/0uhvUQo4zejVwwjsICMFlUFM6cNqPncavzQEuVSYX7FK9kwPuLmy9q3LJH0QwPYLa4FZXJJowfMVpozAUz2Pj7EDboLzBTWkX661jxKxjxMYMfI/YnGhf8UeigwcagUxDTrDqItnoHYc8qeLIBoTrc3zto/zWkOZWYI61W/2Y06DCiNivGZSjZQbvxPLSmZsEgZi/XFLwgRKs1zOAtTG7gB6uptZ9mdSzVCpWE6DSOIg45JQnNp0+ZAb1pNY+lHZ+0nUA/NEoMNFXarxDUlhwMzLa4rIUlL2NLWVpWFZVMpTlAa6e5xselh6W0wgWKpxgwQAqWS3yZQMfX1G3FOYdlDYXe1Uxilsi76JA8agvzwHyddTfv+u9lWrPA+iHghvsWz/WyRp4HvjaI/z1sRdvQK9x+/ZtSCgOF4a/s/zbwCHGWOOeOUXdwh9hKnCaeJSbTPz4kBjOJskjHQZfQtt/1icFEk9BugelCOiL33ORuuweV0yAv48UIcZPtYKKfeNm+fJsYWIahVtZHytFY74SvddQ/IX507x8nSo4VvzOwt9yvNpC3L7ir2OKEX0HcS7xJ7CTuzlQ76Q5XYCdvucBriZeIQ86srEljmQRW4+sqaXSA9z3Gic+dWTybeIQoECeI3cSpTENccDPdsyrxpMv6weLBTbpqL/Easc15EKVUbebbXPek9OwX6j3Xbum7Ha7iq7bijLPYJuhze8UrG5sJXo+oZ8y5xTlsr8fEGOvsM05v58IhX6Q07NjE7kDY5GEaaBccv8iGj3bNrX77AUkM8bOOdQ3dNbdrq9bNz5ym6UyCS1yPiculfwQYAPzfX5heMvB5AAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.zaflex2.zaflex-export_black {
+	background-position: 0px -21px;
+	width: 14px !important;
+    height: 22px !important;
+}
+
+a:not(.fl).next-tr-open-css.textTracate.toggleLink.quantity_unavailable,
+a:not(.fl).next-tr-open-css.toggleLink.quantity_unavailable {
+	width: auto !important;
+	float: left;
+	position: absolute;
+}
+
+.rebate_bycompany .tr-body .tr-row .tr-row-td.Part_Number {
+	padding-left: 15px !important;
+}
