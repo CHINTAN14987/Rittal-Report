@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# REACT_APP_API_PATH=https://www.gast-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://leads.irleads.com/srv/api
+# REACT_APP_API_PATH=https://leads.irleads.com/srvdemo/api
+# REACT_APP_API_PATH=https://norgren-interlynx.com/srv/api
+# REACT_MAP_API_PATH=https://territory.interlynxsystems.com
+# REACT_APP_API_PATH=https://demo.stryker-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://demo.hydac-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://www.murrinc-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://www.murrinc-interlynx.com/srvdemo/api
+# REACT_APP_API_PATH=https://lenze-interlynx.com/srv/api
+REACT_APP_API_PATH=https://rittal-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://rittal-interlynx.com/srvdemo/api
+# REACT_APP_API_PATH=https://spxflowleads.com/srv/api
+# REACT_APP_API_PATH=https://demo.carlisleftleads.com/srv/api
+# REACT_APP_API_PATH=https://wattswaterleads.com/srv/api
+# REACT_APP_API_PATH=https://rittal-interlynx.com/staging/srv_livecopy/api/deal
+# REACT_APP_API_PATH=https://www.weidmuller-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://www.cornellpump-interlynx.com/srv/api
+# REACT_APP_API_PATH=https://clippard-interlynx.com/srv/api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REACT_APP_API_PATH="https://platform.interlynxsystems.com/srv/public/api"
+#Gast
+# REACT_APP_CONFIG=db7e52c710587c406c8f884d991b9==
 
-## Available Scripts
+#Leads-IRLeads
+# REACT_APP_CONFIG=4d3b37faa3b928e9d7cd6def887d2==
 
-In the project directory, you can run:
+#Norgren
+# REACT_APP_CONFIG=aad23b9e872d4ac0ca07c0a456a0b==
 
-### `npm start`
+#Demo-Stryker
+# REACT_APP_CONFIG=bd66d828cf7acc3e9046b05215985==
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#demo hydac
+# REACT_APP_CONFIG="3f78378aed0c4ec530e11d832cb5d=="
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#murrinch
+# REACT_APP_CONFIG=792457ebaff264cc6b29de8d29432==
 
-### `npm test`
+#lenze
+# REACT_APP_CONFIG=461b902ed06a2b937f2f19fc8b964==
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#rittal 
+REACT_APP_CONFIG=8b1cc9ee96fd4a621b99fe1f47549==
 
-### `npm run build`
+#rittal demo
+# REACT_APP_CONFIG=605f2faab842388eca9e079377190==
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# rittal staging
+# REACT_APP_CONFIG=df3bd4da38719b3652746a9ed50c4==
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# spx
+# REACT_APP_CONFIG=540d86839bfea2ee1c36b7f4ba9a4==
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#Que Lead report
+# REACT_APP_CONFIG=e79227be7952eea1878dd1ac2dc3e==
 
-### `npm run eject`
+#WattsWaterLeads
+# REACT_APP_CONFIG=9528e80b6de8a05a493fc190b2d08==
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#carlisle
+# REACT_APP_CONFIG=e79227be7952eea1878dd1ac2dc3e==
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#WiedMuller
+# REACT_APP_CONFIG=0288b0169cf8c5fb41004edb42dc4==
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#CornellPump
+# REACT_APP_CONFIG=fda209763419930ae8f4c4282058f==    
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#Clippard
+# REACT_APP_CONFIG=5d0ecd19e68946ffda1d0e37a58c2==    
+# REACT_APP_API_PATH="https://platform.interlynxsystems.com/srv/public/api"
 
-## Learn More
+GENERATE_SOURCEMAP=false
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
